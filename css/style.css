@@ -1,0 +1,54 @@
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    color: blue;
+    background-color: cadetblue;
+    font-family: Algerian;
+    font-weight: bold;
+}
+body{
+    text-align: center;
+    margin-top: 80px;
+    background-color: blue;
+
+}
+.month{
+    letter-spacing: 1px;
+    /* border: 2px solid yellow; */
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+table th{
+    color: red;
+    background-color: thistle;
+}
+table,th,td{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 20px;
+    border: 2px solid black;
+    font-family: Elephant;
+    margin-top:20px;
+}
+tr,th,td{
+    padding: 10px;
+}
+td{
+    background-color: green;
+    color:indigo;
+}
+td:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+th:hover{
+    background-color:black;
+    color: chartreuse;
+}
+.month strong:hover{
+    background-color: black;
+    color:red;
+}
